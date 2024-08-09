@@ -1,0 +1,1 @@
+UPDATE cloud.cloud SET "name"= '{{Table1.updatedRow.name}}', "scheme"= '{{Table1.updatedRow.scheme}}', "newcolor"= '{{Table1.updatedRow.newcolor}}', "oldcolor"= '{{Table1.updatedRow.oldcolor}}' WHERE "plan_id"= {{Table1.updatedRow.plan_id}};

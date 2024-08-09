@@ -1,0 +1,1 @@
+INSERT INTO cloud.cloud ("name","scheme","newcolor","oldcolor") VALUES ('{{(Table1.newRow || {}).name}}','{{(Table1.newRow || {}).scheme}}','{{(Table1.newRow || {}).newcolor}}','{{(Table1.newRow || {}).oldcolor}}')

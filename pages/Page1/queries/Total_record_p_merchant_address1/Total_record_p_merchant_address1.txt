@@ -1,0 +1,1 @@
+SELECT COUNT(*) from p.merchant_address where city ilike '%{{Table1.searchText}}%';
